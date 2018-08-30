@@ -1,9 +1,0 @@
-C:\Users\ibrahm2\Source\Repos\entityframework6-map-string-to-guid\Database\bin\Debug\Database.dacpac
-C:\Users\ibrahm2\Source\Repos\entityframework6-map-string-to-guid\Database\bin\Debug\Database.dll
-C:\Users\ibrahm2\Source\Repos\entityframework6-map-string-to-guid\Database\bin\Debug\Database.pdb
-C:\Users\ibrahm2\Source\Repos\entityframework6-map-string-to-guid\Database\obj\Debug\Model.xml
-C:\Users\ibrahm2\Source\Repos\entityframework6-map-string-to-guid\Database\obj\Debug\refactor.xml
-C:\Users\ibrahm2\Source\Repos\entityframework6-map-string-to-guid\Database\obj\Debug\postdeploy.sql
-C:\Users\ibrahm2\Source\Repos\entityframework6-map-string-to-guid\Database\obj\Debug\predeploy.sql
-C:\Users\ibrahm2\Source\Repos\entityframework6-map-string-to-guid\Database\obj\Debug\Database.dll
-C:\Users\ibrahm2\Source\Repos\entityframework6-map-string-to-guid\Database\obj\Debug\Database.pdb
