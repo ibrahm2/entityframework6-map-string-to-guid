@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EntityFrameworkConversions.StringToGuid;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -17,20 +18,22 @@ namespace EntityFrameworkConversions
 
             //method 1 - stored procedure: map the entity to a stored procedure that will insert the string property
             //into the uniqueidentifier field
-            var db = new GuidToString.StoredProcedure.Db();
-            db.Tables.Add(new Table()
+            var dbMappedToStoredProcedure = new DbMappedToStoredProcedure();
+            dbMappedToStoredProcedure.Tables.Add(new Table()
             {
                 Id = Guid.NewGuid().ToString()
             });
-            db.SaveChanges();
+            dbMappedToStoredProcedure.SaveChanges();
+            Console.WriteLine("Inserted string id to uniqueidentifier field using a stored procedure.");
 
             //method 2 - wrapper class: create a class that either inherits or wraps around the entity and cast the string as a guid
-            var db2 = new GuidToString.WrapperClass.Db();
-            db2.Tables.Add(new GuidToString.WrapperClass.WrapperTable()
+            var dbUsingWrapperProperty = new DbUsingWrapperProperty();
+            dbUsingWrapperProperty.Tables.Add(new WrapperTable()
             {
                 Id = Guid.NewGuid()
             });
-            db2.SaveChanges();
+            dbUsingWrapperProperty.SaveChanges();
+            Console.WriteLine("Inserted string id to uniqueidentifier field using a wrapped property.");
         }
     }
 }

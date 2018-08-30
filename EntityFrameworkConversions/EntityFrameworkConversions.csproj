@@ -51,12 +51,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GuidToString\StoredProcedure\Db.cs" />
-    <Compile Include="GuidToString\WrapperClass\Db.cs" />
-    <Compile Include="GuidToString\WrapperClass\WrapperTable.cs" />
+    <Compile Include="StringToGuid\StoredProcedure.cs" />
+    <Compile Include="StringToGuid\WrapperProperty.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="GuidToString\Table.cs" />
+    <Compile Include="Entities\Table.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

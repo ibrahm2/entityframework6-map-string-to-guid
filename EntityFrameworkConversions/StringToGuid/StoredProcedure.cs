@@ -1,14 +1,15 @@
-namespace EntityFrameworkConversions.GuidToString.StoredProcedure
+namespace EntityFrameworkConversions.StringToGuid
 {
     using System;
     using System.Data.Entity;
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Linq;
+    using EntityFrameworkConversions.Entities;
 
-    public partial class Db : DbContext
+    public partial class DbMappedToStoredProcedure : DbContext
     {
-        public Db()
-            : base("name=Db")
+        public DbMappedToStoredProcedure()
+            : base("name=DbMappedToStoredProcedure")
         {
         }
 

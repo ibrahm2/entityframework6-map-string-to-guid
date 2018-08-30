@@ -1,4 +1,4 @@
-namespace EntityFrameworkConversions
+namespace EntityFrameworkConversions.Entities
 {
     using System;
     using System.Collections.Generic;
