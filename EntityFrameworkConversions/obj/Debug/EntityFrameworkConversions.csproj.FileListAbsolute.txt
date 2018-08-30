@@ -1,0 +1,11 @@
+c:\users\ibrahm2\documents\visual studio 2017\Projects\EntityFrameworkConversions\EntityFrameworkConversions\bin\Debug\EntityFrameworkConversions.exe.config
+c:\users\ibrahm2\documents\visual studio 2017\Projects\EntityFrameworkConversions\EntityFrameworkConversions\bin\Debug\EntityFrameworkConversions.exe
+c:\users\ibrahm2\documents\visual studio 2017\Projects\EntityFrameworkConversions\EntityFrameworkConversions\bin\Debug\EntityFrameworkConversions.pdb
+c:\users\ibrahm2\documents\visual studio 2017\Projects\EntityFrameworkConversions\EntityFrameworkConversions\bin\Debug\EntityFramework.dll
+c:\users\ibrahm2\documents\visual studio 2017\Projects\EntityFrameworkConversions\EntityFrameworkConversions\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\ibrahm2\documents\visual studio 2017\Projects\EntityFrameworkConversions\EntityFrameworkConversions\bin\Debug\EntityFramework.xml
+c:\users\ibrahm2\documents\visual studio 2017\Projects\EntityFrameworkConversions\EntityFrameworkConversions\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\ibrahm2\documents\visual studio 2017\Projects\EntityFrameworkConversions\EntityFrameworkConversions\obj\Debug\EntityFrameworkConversions.csprojResolveAssemblyReference.cache
+c:\users\ibrahm2\documents\visual studio 2017\Projects\EntityFrameworkConversions\EntityFrameworkConversions\obj\Debug\EntityFrameworkConversions.csproj.CoreCompileInputs.cache
+c:\users\ibrahm2\documents\visual studio 2017\Projects\EntityFrameworkConversions\EntityFrameworkConversions\obj\Debug\EntityFrameworkConversions.exe
+c:\users\ibrahm2\documents\visual studio 2017\Projects\EntityFrameworkConversions\EntityFrameworkConversions\obj\Debug\EntityFrameworkConversions.pdb
