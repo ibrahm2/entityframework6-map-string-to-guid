@@ -19,7 +19,7 @@ namespace EntityFrameworkConversions
             //method 1 - stored procedure: map the entity to a stored procedure that will insert the string property
             //into the uniqueidentifier field
             var dbMappedToStoredProcedure = new DbMappedToStoredProcedure();
-            dbMappedToStoredProcedure.Tables.Add(new Table()
+            dbMappedToStoredProcedure.Tables.Add(new EntityFrameworkConversions.Entities.Table()
             {
                 Id = Guid.NewGuid().ToString()
             });
